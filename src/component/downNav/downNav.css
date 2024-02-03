@@ -1,0 +1,10 @@
+.down-nav{
+    width: 100%;
+    padding: .8rem 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg,#FFD096,#FFD4CB);
+    position: absolute;
+    bottom: 0%;
+}

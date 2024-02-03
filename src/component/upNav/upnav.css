@@ -1,0 +1,16 @@
+.up-nav{
+    width: 100%;
+    padding: .8rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg,#FFD096,#FFD4CB);
+}
+.up-nav h4{
+    font-size: 18px; 
+}
+@media screen and (max-width:765px) {
+    .up-nav h4{
+        font-size: 12px;
+    }
+}

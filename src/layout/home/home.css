@@ -1,0 +1,76 @@
+.home-container {
+    width: 100%;
+    height: calc(100vh - 5vh);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.2rem;
+    padding-top: 5rem;
+}
+
+.content-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-container .content-container .content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-container .button-container {
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+    margin-top: 1.2rem;
+}
+
+.button-container .main-button {
+    padding: .8rem 2.4rem;
+    background: linear-gradient(90deg, #FFD096, #FFD4CB);
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.button-container .second-button {
+    padding: .8rem 2.4rem;
+    background: #80808060;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.home-container h1 {
+    font-family: 'Josefin Slab', serif;
+    font-size: 2.5rem;
+}
+
+.image-slider {
+    width: 100%;
+    height: 100%;
+    border: 1px solid red;
+}
+
+@media screen and (max-width:765px) {
+    .content-container{
+        margin-top: 2rem;
+    }
+    .home-container h1 {
+        font-size: 1.6rem;
+    }
+}
